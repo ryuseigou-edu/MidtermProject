@@ -32,6 +32,7 @@ public class GameMaster {
 
         Character partyMember = hero;
         partyMember.hp -= 50;
-        System.out.println("partyMember経由でHPを減らした後： " + hero.hp);
+        System.out.println("partyMember経由でHPを減らした後：");
+        System.out.println(hero.name + "：HP " + hero.hp);
     }
 }
