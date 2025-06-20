@@ -25,9 +25,9 @@ public class GameMaster {
         hero.showStatus();
         slime.showStatus();
         System.out.println
-                (hero.name + "は生きている:" + hero.isAlive());
+                (hero.name + "は生きている: " + hero.isAlive());
         System.out.println
-                (slime.name + "は生きている:" + slime.isAlive());
+                (slime.name + "は生きている: " + slime.isAlive());
         System.out.println("--- 参照の確認 ---");
 
         Character partyMember = hero;
