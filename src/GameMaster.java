@@ -29,7 +29,7 @@ public class GameMaster {
         System.out.println
                 (slime.name + "は生きている: " + slime.isAlive());
         System.out.println("--- 参照の確認 ---");
-
+        
         Character partyMember = hero;
         partyMember.hp -= 50;
         System.out.println("partyMember経由でHPを減らした後：");
